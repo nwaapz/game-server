@@ -1,4 +1,4 @@
-var io=require('socket.io')(process.env.Port || 3000);
+var io=require('socket.io')(process.env.PORT || 3000);
 var player=require("./classes/player.js");
 
 console.log('connecting to node server');
